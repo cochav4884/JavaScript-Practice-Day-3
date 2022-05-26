@@ -16,3 +16,49 @@ const parsedNum1= parseInt(num1);
 const parsedNum2= parseInt(num2);
 // Add the numbers together and alert the user with the result
 alert(parsedNum1+parsedNum2);
+
+
+
+// const num = prompt('Enter some string:');
+
+// const index = input[Math.floor(Math.random() * input.length)];
+
+// const char = input[index];
+
+// alert('The character at ${index} in ${input} is ${char}');
+
+
+const date = new Date();
+alert(date);
+
+const start = new Date();
+alert('close as fast as possible');
+const end = new Date();
+const elasped = start.getTime() - start.getTime();
+alert(elasped);
+
+alert(start.getDate());
+
+alert(start.getDay());
+
+alert(start.getFullYear());
+
+alert(start.getTimezoneOffset());
+
+alert(start.getUTCDate());
+
+alert(start.setTime());
+
+alert(start.toLocaleDateString());
+
+alert(start.toLocaleString());
+
+alert(start.toLocaleTimeString());
+
+alert(start.toString());
+
+alert(start.toTimeString());
+
+alert(start.toUTCString());
+
+alert(start.getTime());
