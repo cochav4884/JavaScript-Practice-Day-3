@@ -24,7 +24,7 @@
 // ------------ DAILY CHALLENGE ------------
 // Prompt the user for two different numbers
 let num1=prompt('Enter a number', '14');
-let num2=prompt('Enter another number', '24');
+let num2=prompt('Enter anothe r number', '24');
 // Convert the values to integers
 // Store the two integers as variables
 let parsedNum1=parseInt(num1);
